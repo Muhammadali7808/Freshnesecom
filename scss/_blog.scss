@@ -1,0 +1,140 @@
+.blog_text {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+
+.blog_link {
+    position: relative;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+    border-radius: 12px;
+    padding: 6px 12px;
+    width: 124px;
+    background: var(--c1-j);
+}
+
+.blog_link::after {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    top: 8px;
+    left: 96px;
+    background-image: url(../img/chat_8.svg);
+}
+
+.blog_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    margin-top: 64px;
+    align-items: center;
+}
+
+.cap_text {
+    border-radius: 12px;
+    padding: 2px 8px;
+    width: 80px;
+    height: 18px;
+    background: var(--c2-e);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.cap_title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    width: 267px;
+    margin-bottom: 16px;
+}
+
+.cap_strong {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.cap_item {
+    // border: 1px solid #3f3f3f;
+    width: 269px;
+}
+
+.cap_list {
+    margin-bottom: 119px;
+}
+
+.spis_text {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+    width: 225px;
+}
+
+.spis_strong {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.spis_in_div {
+    display: flex;
+    gap: 5px;
+}
+
+.spis_item {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.blog_content {
+    display: flex;
+    gap: 32px;
+}
+
+.blog_cap {
+    display: flex;
+    gap: 32px;
+}
+
+.img_title {
+    position: absolute;
+    width: 380px;
+    top: 270px;
+    left: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--c1-j);
+}
+
+
+.img_item {
+    position: absolute;
+    top: 344px;
+    left: 24px;
+}
+
+.img_item_1{
+    position: absolute;
+    top: 344px;
+    left: 64px;
+}
+
+.img_inner_strong {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-j);
+}
+
+.blog_img {
+    position: relative;
+}

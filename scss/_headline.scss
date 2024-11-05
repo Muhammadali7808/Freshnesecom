@@ -1,0 +1,44 @@
+.head_text {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+
+.head_text_1 {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+    border-radius: 12px;
+    position: relative;
+    padding: 6px 12px;
+    width: 98px;
+    height: 35px;
+    background: var(--c1-j);
+}
+
+
+.head_text_1::after{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../img/chat_8.svg);
+    display: inline-block;
+    top: 8.3px;
+    left: 70px;
+}
+
+.head_list_1 {
+    display: flex;
+    margin-bottom: 64px;
+    margin-top: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.headline {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}

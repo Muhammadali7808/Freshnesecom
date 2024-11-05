@@ -1,0 +1,23 @@
+.touch_link {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c2-a);
+    margin-bottom: 16px;
+}
+
+.touch_title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}
+
+.touch_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.touch{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
